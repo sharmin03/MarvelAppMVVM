@@ -1,0 +1,11 @@
+
+platform :ios, '13.5'
+	workspace 'Marvel'
+  use_frameworks!
+target 'Marvel' do
+	project 'Marvel/Marvel.xcodeproj'	
+
+  # Pods for Marvel
+pod 'Moya'
+pod 'Kingfisher/SwiftUI'
+end
